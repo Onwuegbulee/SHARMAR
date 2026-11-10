@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sharmar – Join the Waitlist</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbfbfd;--alt:#f3f1fb;--sf:#fff;--ink:#15132b;--mute:#6a6786;--line:#e6e3f4;--p:#6d3cf5;--p2:#8b66ff;--soft:#efeaff;--ok:#17a36b;--sh:0 24px 60px -24px rgba(80,45,200,.35);--stripe:rgba(109,60,245,.045);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c0a20;--alt:#120f2e;--sf:#171438;--ink:#f2f0ff;--mute:#a9a5d0;--line:#2b2760;--p:#8b6dff;--p2:#a994ff;--soft:#221e56;--stripe:rgba(160,130,255,.06)}}
+:root[data-theme="dark"]{--bg:#0c0a20;--alt:#120f2e;--sf:#171438;--ink:#f2f0ff;--mute:#a9a5d0;--line:#2b2760;--p:#8b6dff;--p2:#a994ff;--soft:#221e56;--stripe:rgba(160,130,255,.06)}
+*{box-sizing:border-box;margin:0}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;line-height:1.6;overflow-x:hidden}
+.w{max-width:1120px;margin:0 auto;padding:0 22px}
+header.nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nv{display:flex;align-items:center;justify-content:space-between;height:66px;gap:14px}
+.logo{font-weight:800;font-size:24px;letter-spacing:-1px;display:flex;align-items:center;gap:8px}
+.logo i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--p),var(--p2));display:grid;place-items:center;color:#fff;font-style:normal;font-size:15px}
+.links{display:flex;gap:26px;font-size:14px;font-weight:500}
+.links a{color:var(--mute);text-decoration:none}.links a:hover{color:var(--p)}
+.right{display:flex;gap:10px;align-items:center}
+.mode{display:flex;background:var(--alt);border:1px solid var(--line);border-radius:99px;padding:3px}
+.mode button{font:inherit;font-size:12px;font-weight:500;border:0;background:none;color:var(--mute);padding:6px 12px;border-radius:99px;cursor:pointer}
+.mode button.on{background:var(--sf);color:var(--ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.btn{display:inline-flex;align-items:center;gap:8px;font:inherit;font-weight:600;font-size:14.5px;color:#fff;background:var(--p);border:0;border-radius:12px;padding:13px 24px;cursor:pointer;text-decoration:none;box-shadow:0 12px 26px -12px var(--p);transition:transform .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn.sm{padding:9px 16px;font-size:13px}
+.btn.ghost{background:var(--sf);color:var(--ink);border:1px solid var(--line);box-shadow:none}
+.hero{background:linear-gradient(180deg,var(--alt),var(--bg));position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,var(--stripe) 0 1px,transparent 1px 64px)}
+.hg{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:20px;align-items:center;padding:56px 0 0}
+.pill{display:inline-flex;gap:8px;align-items:center;font-size:12.5px;font-weight:500;padding:6px 14px;border:1px solid var(--line);background:var(--sf);border-radius:99px;color:var(--mute)}
+.pill b{color:var(--ok)}
+h1{font-size:clamp(36px,5.4vw,62px);line-height:1.05;letter-spacing:-2.4px;font-weight:800;margin:20px 0 18px}
+h1 span{color:var(--p)}
+.sub{color:var(--mute);font-size:17px;max-width:480px;margin-bottom:28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+.rate{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--mute)}
+
+.vis{position:relative;height:540px;display:flex;justify-content:center;align-items:flex-end}
+.phone{width:290px;height:480px;background:var(--sf);border:8px solid #1c1942;border-bottom:0;border-radius:44px 44px 0 0;padding:14px 16px;position:relative;z-index:1;box-shadow:var(--sh)}
+.nt{width:86px;height:22px;background:#1c1942;border-radius:99px;margin:0 auto 14px}
+.bal{background:linear-gradient(135deg,var(--p),var(--p2));color:#fff;border-radius:20px;padding:16px;margin-bottom:12px}
+.bal small{opacity:.8;font-size:11px}.bal strong{display:block;font-size:26px;letter-spacing:-1px}
+.bal em{font-style:normal;font-size:10.5px;background:rgba(255,255,255,.2);padding:3px 9px;border-radius:99px}
+.tx{display:flex;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line);font-size:12px}
+.tx .av{width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--soft);font-size:15px;flex:none}
+.tx div{flex:1;line-height:1.3}.tx small{color:var(--mute);font-size:10.5px;display:block}
+.tx b{font-size:12px}
+.fc{position:absolute;z-index:3;background:var(--sf);border:1px solid var(--line);border-radius:16px;padding:12px 14px;font-size:12px;box-shadow:var(--sh);display:flex;gap:10px;align-items:center;max-width:240px}
+.fc .ic{width:34px;height:34px;border-radius:11px;display:grid;place-items:center;background:var(--soft);font-size:16px;flex:none}
+.fc small{display:block;color:var(--mute);font-size:10.5px}
+.a1{left:-6px;top:90px}.a2{right:-8px;top:250px}.a3{left:6px;bottom:90px}
+.trust{padding:56px 0 20px;text-align:center}
+.trust h3{font-size:clamp(22px,3.4vw,30px);letter-spacing:-.8px;color:var(--mute);font-weight:600}
+.trust h3 b{color:var(--ink)}
+.av-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+.t{text-align:center;font-size:12.5px;font-weight:500;color:var(--mute)}
+.t i{display:grid;place-items:center;width:68px;height:68px;border-radius:50%;font-style:normal;font-size:30px;margin:0 auto 8px}
+sec,section{display:block;padding:76px 0 0}
+.tag{color:var(--p);font-size:12px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:10px}
+h2{font-size:clamp(26px,4vw,40px);letter-spacing:-1.4px;line-height:1.12;font-weight:800;margin-bottom:12px}
+.lead{color:var(--mute);max-width:600px;margin-bottom:34px}
+.c{text-align:center}.c .lead{margin-left:auto;margin-right:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:var(--sf);border:1px solid var(--line);border-radius:22px;padding:24px}
+.card .ic{width:46px;height:46px;border-radius:14px;background:var(--soft);display:grid;place-items:center;font-size:22px;margin-bottom:14px}
+.card h3{font-size:16px;margin-bottom:5px}.card p{font-size:14px;color:var(--mute)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;position:relative}
+.steps:before{content:"";position:absolute;top:32px;left:16%;right:16%;border-top:2px dashed var(--line)}
+.st{text-align:center;position:relative}
+.st .ic{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:26px;margin:0 auto 14px;color:#fff;box-shadow:var(--sh)}
+.st h3{font-size:16px;margin-bottom:4px}.st p{font-size:14px;color:var(--mute);max-width:260px;margin:0 auto}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.chk{display:grid;gap:14px;margin-top:20px}
+.chk div{display:flex;gap:12px;font-size:14.5px}
+
+.chk b{display:block;font-size:15.5px}.chk span{color:var(--mute)}
+.join{background:var(--alt);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:76px;padding:76px 0}
+.jg{display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--sf);border:1px solid var(--line);border-radius:30px;overflow:hidden;box-shadow:var(--sh)}
+.jl{padding:44px;border-right:1px solid var(--line)}
+.jr{padding:44px 40px;display:flex;flex-direction:column;justify-content:center}
+.jr h2{font-size:clamp(24px,3.4vw,32px);text-align:center}
+.jr .sm{color:var(--mute);text-align:center;font-size:14px;margin-bottom:18px}
+.avs{display:flex;justify-content:center;margin-bottom:20px}
+.avs i{width:38px;height:38px;border-radius:50%;border:3px solid var(--sf);margin-left:-8px;display:grid;place-items:center;font-style:normal;font-size:17px}
+.avs i:first-child{margin-left:0}
+input{width:100%;font:inherit;font-size:14px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:12px;outline:none}
+input:focus{border-color:var(--p);box-shadow:0 0 0 3px color-mix(in srgb,var(--p) 18%,transparent)}
+.lbl{font-size:13px;font-weight:600;margin:6px 2px 10px}
+.lbl small{font-weight:400;color:var(--mute)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.chips button{font:inherit;font-size:12.5px;padding:8px 13px;border-radius:99px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;transition:.15s}
+.chips button.on{background:var(--p);border-color:var(--p);color:#fff}
+
+.add{display:flex;gap:8px;margin-bottom:6px}
+.add input{margin:0}
+.add button{flex:none;font:inherit;font-weight:600;font-size:13px;padding:0 16px;border-radius:12px;border:1px dashed var(--p);background:var(--soft);color:var(--p);cursor:pointer}
+.err{color:#e5484d;font-size:12.5px;min-height:18px;margin:6px 2px}
+.go{width:100%;justify-content:center;padding:15px}
+.fn{font-size:12px;color:var(--mute);text-align:center;margin-top:14px}
+.ok{text-align:center;padding:20px 0}
+.ok .tick{width:64px;height:64px;border-radius:50%;background:var(--ok);color:#fff;font-size:32px;display:grid;place-items:center;margin:0 auto 14px}
+.faq{display:grid;gap:10px;max-width:760px;margin:0 auto}
+details{background:var(--sf);border:1px solid var(--line);border-radius:16px;padding:17px 22px}
+summary{cursor:pointer;font-weight:600;font-size:15px;list-style:none;display:flex;justify-content:space-between;gap:10px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--p);font-size:22px;line-height:1}
+details[open] summary:after{content:"–"}
+details p{margin-top:10px;font-size:14px;color:var(--mute)}
+footer{text-align:center;color:var(--mute);font-size:13px;padding:60px 0 36px}
+@media(max-width:900px){.links{display:none}.hg,.split,.jg{grid-template-columns:1fr}.hg{padding-top:36px}.vis{height:500px}.jl{border-right:0;border-bottom:1px solid var(--line);padding:30px 24px}.jr{padding:32px 22px}.steps{grid-template-columns:1fr}.steps:before{display:none}.steps .st{margin-bottom:10px}.a1{left:0;top:60px}.a2{right:0}}
+@media(max-width:520px){.mode button{padding:6px 9px}.nv .btn{display:none}.fc{max-width:200px}}
+svg.lucide{width:20px;height:20px;stroke-width:1.8;flex:none}
+svg.s16{width:16px;height:16px}svg.s28{width:28px;height:28px}svg.s32{width:32px;height:32px}
+.logo i,.logo svg{color:#fff}.logo i{display:grid}
+.links a{display:inline-flex;align-items:center;gap:7px}
+.mode button{display:inline-flex;align-items:center;gap:6px}
+.pill .d{width:7px;height:7px;border-radius:50%;background:var(--ok)}
+.rate span{display:inline-flex;align-items:center;gap:7px}.rate svg{color:var(--ok)}
+
+.tx>svg,.tx .ok2{flex:none}.tx .ok2{color:var(--ok)}.tx .pd{color:var(--p)}
+.av svg,.fc .ic svg{color:var(--p)}
+.t{transition:color .2s}.t svg{display:block;margin:0 auto 10px;color:var(--p);width:32px;height:32px}.t:hover{color:var(--p)}.t:hover svg{transform:translateY(-3px)}.t svg{transition:transform .2s}
+.card .ic svg{color:var(--p);width:26px;height:26px}
+.st .ic svg{width:28px;height:28px;color:#fff}
+.chk>div{align-items:flex-start;gap:14px}.chk>div>svg{width:22px;height:22px;color:var(--p);margin-top:3px}
+.fi{position:relative}.fi svg{position:absolute;left:15px;top:15px;width:18px;height:18px;color:var(--mute);pointer-events:none}.fi input{padding-left:44px}
+.fi:focus-within svg{color:var(--p)}
+.chips button{display:inline-flex;align-items:center;gap:7px}.chips button svg{width:15px;height:15px}
+
+.badge{display:flex;justify-content:center;align-items:center;gap:8px;font-size:13px;color:var(--mute);margin-bottom:20px}.badge svg{color:var(--p)}
+.add button{display:inline-flex;align-items:center;gap:6px}.add button svg{width:16px;height:16px}
+.ok .tick svg{width:32px;height:32px;stroke-width:2.4}
+summary:after{content:none}summary svg{color:var(--p);transition:transform .2s}details[open] summary svg{transform:rotate(180deg)}
+.btn svg{width:18px;height:18px;transition:transform .15s}.btn:hover svg{transform:translateX(3px)}
+.fl{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin-bottom:22px}.fl a{display:inline-flex;align-items:center;gap:7px;color:var(--mute);text-decoration:none;font-weight:500;transition:color .2s}.fl a:hover{color:var(--p)}
+</style>
+</head>
+<body>
+<header class="nav"><div class="w nv">
+<div class="logo"><i data-lucide="shield-check"></i>Sharmar</div>
+<nav class="links"><a href="#how"><i data-lucide="workflow" class="s16"></i>How it works</a><a href="#why"><i data-lucide="badge-check" class="s16"></i>Why Sharmar</a><a href="#faq"><i data-lucide="circle-help" class="s16"></i>FAQ</a></nav>
+<div class="right"><div class="mode"><button id="bl"><i data-lucide="sun" class="s16"></i> Light</button><button id="bd"><i data-lucide="moon" class="s16"></i> Dark</button></div><a class="btn sm" href="#join">Join waitlist</a></div>
+</div></header>
+
+<div class="hero"><div class="w hg">
+<div>
+<span class="pill"><span class="d"></span> Early access opening soon</span>
+<h1>Trade online <span>without the fear.</span></h1>
+<p class="sub">Sharmar holds the buyer’s money safely until the item arrives and is confirmed. Agree on WhatsApp, close on Sharmar, and no one gets scammed.</p>
+<div class="cta"><a class="btn" href="#join">Join the waitlist <i data-lucide="arrow-right"></i></a><a class="btn ghost" href="#how"><i data-lucide="workflow"></i> See how it works</a></div>
+<div class="rate"><span><i data-lucide="shield-check" class="s16"></i>Buyers protected</span><span><i data-lucide="handshake" class="s16"></i>Sellers protected</span><span><i data-lucide="briefcase-business" class="s16"></i>Goods &amp; services</span></div>
+</div>
+<div class="vis">
+<div class="fc a1"><div class="ic"><i data-lucide="lock-keyhole"></i></div><div><b>₦485,000 locked</b><small>Seller can now ship</small></div></div>
+<div class="fc a2"><div class="ic"><i data-lucide="bus"></i></div><div><b>On the road to Lagos</b><small>Driver &amp; plate recorded</small></div></div>
+<div class="fc a3"><div class="ic"><i data-lucide="circle-check"></i></div><div><b>Funds released</b><small>Paid into seller’s wallet</small></div></div>
+<div class="phone"><div class="nt"></div>
+<div class="bal"><small>Held in escrow</small><strong>₦485,000</strong><em>iPhone 13 Pro Max</em></div>
+<div class="tx"><div class="av"><i data-lucide="handshake"></i></div><div><b>Terms agreed</b><small>Both sides approved</small></div><i data-lucide="circle-check" class="ok2"></i></div>
+<div class="tx"><div class="av"><i data-lucide="camera"></i></div><div><b>Evidence uploaded</b><small>6 photos + unboxing video</small></div><i data-lucide="circle-check" class="ok2"></i></div>
+<div class="tx"><div class="av"><i data-lucide="bus"></i></div><div><b>Shipped with driver</b><small>Ibadan to Lagos</small></div><i data-lucide="circle-check" class="ok2"></i></div>
+<div class="tx"><div class="av"><i data-lucide="scan-search"></i></div><div><b>Buyer inspects</b><small>Confirm to release funds</small></div><i data-lucide="clock" class="pd"></i></div>
+</div>
+</div></div></div>
+
+<div class="w trust">
+<h3>Built for <b>everyday traders</b> across Nigeria</h3>
+<div class="av-row"><div class="t"><i data-lucide="smartphone"></i>Phone dealers</div><div class="t"><i data-lucide="shirt"></i>Fashion vendors</div><div class="t"><i data-lucide="car-front"></i>Car &amp; parts</div><div class="t"><i data-lucide="house"></i>Property agents</div><div class="t"><i data-lucide="laptop"></i>Freelancers</div><div class="t"><i data-lucide="store"></i>Online shops</div></div></div>
+
+<section><div class="w">
+<div class="tag">The problem</div><h2>Online deals run on hope.</h2>
+<p class="lead">Deals start on WhatsApp, Instagram or a call. Someone has to trust a stranger first, and when it goes wrong there’s no proof and no protection.</p>
+<div class="grid">
+<div class="card"><div class="ic"><i data-lucide="hand-coins"></i></div><h3>Pay first, pray after</h3><p>Buyers send money to a stranger and hope the item shows up.</p></div>
+<div class="card"><div class="ic"><i data-lucide="receipt"></i></div><h3>Fake payment alerts</h3><p>Sellers ship on a “payment sent” screenshot that was never real.</p></div>
+<div class="card"><div class="ic"><i data-lucide="package-search"></i></div><h3>Not as described</h3><p>Wrong colour, hidden faults, swapped items, and nothing to prove it.</p></div>
+<div class="card"><div class="ic"><i data-lucide="ghost"></i></div><h3>Ghosting</h3><p>The chat goes cold once money moves, and everyone loses.</p></div>
+</div></div></section>
+
+<section id="how"><div class="w c">
+<div class="tag">How it works</div><h2>Three steps to a safe deal.</h2>
+<p class="lead">Keep negotiating the way you already do. When terms are agreed, Sharmar protects both sides.</p>
+<div class="steps">
+<div class="st"><div class="ic" style="background:linear-gradient(135deg,#6d3cf5,#8b66ff)"><i data-lucide="clipboard-check"></i></div><h3>Agree &amp; approve</h3><p>Create the order with specs, price, delivery period and photos. Both sides approve.</p></div>
+<div class="st"><div class="ic" style="background:linear-gradient(135deg,#f5733c,#ffa45c)"><i data-lucide="lock-keyhole"></i></div><h3>Lock &amp; ship</h3><p>Buyer’s money is locked. Seller ships with a park driver whose details we record.</p></div>
+<div class="st"><div class="ic" style="background:linear-gradient(135deg,#17a36b,#46d39a)"><i data-lucide="package-check"></i></div><h3>Inspect &amp; release</h3><p>Buyer confirms on the app and the seller’s wallet is paid, ready for the bank.</p></div>
+</div></div></section>
+
+<section id="why"><div class="w split">
+<div><div class="tag">Why Sharmar</div><h2>Built for how Nigerians actually trade.</h2>
+<div class="chk">
+<div><i data-lucide="camera"></i><p><b>Evidence first</b><span>Photos and unboxing proof on every order, so disputes are settled on facts.</span></p></div>
+<div><i data-lucide="bus"></i><p><b>Works with park drivers</b><span>Inter-city delivery you already use, with driver phone and plate on record.</span></p></div>
+<div><i data-lucide="briefcase-business"></i><p><b>Goods and services</b><span>Hire a designer or buy a phone. Money is locked until you confirm.</span></p></div>
+<div><i data-lucide="wallet"></i><p><b>Instant wallet</b><span>Funds land in your wallet when the deal closes. Withdraw anytime.</span></p></div>
+</div></div>
+<div class="card" style="padding:28px;background:linear-gradient(160deg,var(--soft),var(--sf))">
+<div class="tx" style="border:0"><div class="av"><i data-lucide="lock-keyhole"></i></div><div><b>Buyer pays into escrow</b><small>Money safe, not with the seller</small></div></div>
+<div class="tx"><div class="av"><i data-lucide="camera"></i></div><div><b>Seller uploads evidence</b><small>Photos, video, driver details</small></div></div>
+<div class="tx"><div class="av"><i data-lucide="scan-search"></i></div><div><b>Buyer inspects the item</b><small>Matches the agreed specs</small></div></div>
+<div class="tx"><div class="av"><i data-lucide="wallet"></i></div><div><b>Seller gets paid</b><small>Straight to the wallet</small></div></div>
+</div></div></section>
+
+<div class="join" id="join"><div class="w"><div class="jg">
+<div class="jl"><div class="tag">Early access</div><h2 style="font-size:clamp(26px,3.6vw,36px)">A safer way to buy and sell online.</h2>
+<div class="chk">
+<div><i data-lucide="key-round"></i><p><b>Be first in</b><span>Waitlist members get priority access when Sharmar launches.</span></p></div>
+<div><i data-lucide="messages-square"></i><p><b>Shape the product</b><span>Tell us your biggest worry and we’ll build around it.</span></p></div>
+<div><i data-lucide="gift"></i><p><b>Launch perks</b><span>Early users get perks at launch. Pricing will be shared before we go live.</span></p></div>
+</div></div>
+<div class="jr"><form id="form" novalidate>
+<div id="fields">
+<h2>Join the waitlist</h2><p class="sm">Get notified the moment we launch</p>
+<div class="badge"><i data-lucide="users-round" class="s16"></i>Early users get priority access</div>
+<div class="fi"><i data-lucide="user-round"></i><input id="name" placeholder="Tell us your name" autocomplete="name"></div>
+<div class="fi"><i data-lucide="mail"></i><input id="email" type="email" placeholder="Enter your email address" autocomplete="email"></div>
+<div class="lbl">What worries you most about online deals? <small>(pick any)</small></div>
+<div class="chips" id="worry"><button type="button"><i data-lucide="shield-alert" class="s16"></i>Paying and getting scammed</button><button type="button"><i data-lucide="bell-ring" class="s16"></i>Fake payment alerts</button><button type="button"><i data-lucide="package-x" class="s16"></i>Item not as described</button><button type="button"><i data-lucide="user-x" class="s16"></i>Seller or buyer disappears</button><button type="button"><i data-lucide="file-x" class="s16"></i>No proof in a dispute</button></div>
+<div class="add"><input id="own" placeholder="Something else? Add your own"><button type="button" id="addb"><i data-lucide="plus"></i> Add</button></div>
+<div class="err" id="err"></div>
+<button class="btn go" id="go" type="submit">Continue <i data-lucide="arrow-right"></i></button>
+<div class="fn">By continuing you agree to be contacted about Sharmar’s launch.</div>
+</div>
+<div class="ok" id="ok" hidden><div class="tick"><i data-lucide="check"></i></div><h2 style="font-size:26px">You’re on the list!</h2><p class="sm" style="margin:0">We’ll email you the moment Sharmar opens. Share it with someone who trades online.</p></div>
+</form></div>
+</div></div></div>
+
+<section id="faq"><div class="w c"><div class="tag">FAQ</div><h2>Questions you may want to ask</h2><p class="lead">&nbsp;</p>
+<div class="faq" style="text-align:left;margin-top:-18px">
+<details><summary>What is Sharmar?<i data-lucide="chevron-down"></i></summary><p>An escrow platform for buyers and sellers. Payment is held safely until the buyer confirms the item or service is as agreed.</p></details>
+<details><summary>Do both sides need the app?<i data-lucide="chevron-down"></i></summary><p>Yes. Buyer and seller both join the order so terms, evidence and approvals are visible to each side.</p></details>
+<details><summary>Do you deliver the item?<i data-lucide="chevron-down"></i></summary><p>No. You choose your own delivery, such as a park driver. Sharmar records the driver’s details so the trip is traceable.</p></details>
+<details><summary>What if something goes wrong?<i data-lucide="chevron-down"></i></summary><p>Photos, order terms and delivery records form the evidence trail, and a person reviews disputes at launch.</p></details>
+<details><summary>How much will it cost?<i data-lucide="chevron-down"></i></summary><p>Pricing will be shared before launch. Waitlist members get early perks.</p></details>
+</div></div></section>
+<footer><div class="fl"><a href="#how"><i data-lucide="workflow" class="s16"></i>How it works</a><a href="#why"><i data-lucide="badge-check" class="s16"></i>Why Sharmar</a><a href="#faq"><i data-lucide="circle-help" class="s16"></i>FAQ</a><a href="#join"><i data-lucide="arrow-up-right" class="s16"></i>Join the waitlist</a></div>© 2026 Sharmar · Trust every trade.</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.462.0/dist/umd/lucide.min.js"></script>
+<script>
+(function(){
+function ic(){try{lucide.createIcons({attrs:{"stroke-width":1.8}})}catch(e){}}
+ic();
+var R=document.documentElement,bl=document.getElementById('bl'),bd=document.getElementById('bd');
+function dark(){var a=R.getAttribute('data-theme');return a?a==='dark':matchMedia('(prefers-color-scheme:dark)').matches}
+function paint(){var d=dark();bd.className=d?'on':'';bl.className=d?'':'on'}
+function set(m){R.setAttribute('data-theme',m);try{localStorage.setItem('sm-theme',m)}catch(e){}paint()}
+try{var s=localStorage.getItem('sm-theme');if(s)R.setAttribute('data-theme',s)}catch(e){}
+bl.onclick=function(){set('light')};bd.onclick=function(){set('dark')};paint();
+var W=document.getElementById('worry');
+W.onclick=function(e){if(e.target.tagName==='BUTTON')e.target.classList.toggle('on')};
+var own=document.getElementById('own');
+function addOwn(){var v=own.value.trim().slice(0,60);if(!v)return;var b=document.createElement('button');b.type='button';b.className='on';b.innerHTML='<i data-lucide="pencil-line" class="s16"></i>';b.appendChild(document.createTextNode(v));W.appendChild(b);ic();own.value=''}
+document.getElementById('addb').onclick=addOwn;
+own.onkeydown=function(e){if(e.key==='Enter'){e.preventDefault();addOwn()}};
+var dbP=null;try{dbP=window.claude&&window.claude.use?window.claude.use('db'):null}catch(e){}
+var f=document.getElementById('form'),err=document.getElementById('err'),go=document.getElementById('go');
+f.onsubmit=async function(e){
+e.preventDefault();
+var n=document.getElementById('name').value.trim(),m=document.getElementById('email').value.trim();
+if(own.value.trim())addOwn();
+var w=[].map.call(W.querySelectorAll('.on'),function(x){return x.textContent});
+if(!n){err.textContent='Please tell us your name.';return}
+if(!/^\S+@\S+\.\S+$/.test(m)){err.textContent='Please enter a valid email address.';return}
+if(!w.length){err.textContent='Pick at least one worry, or add your own.';return}
+err.textContent='';go.disabled=true;
+var rec={name:n,email:m,worries:w,at:new Date().toISOString()};
+try{var db=dbP&&await Promise.race([dbP,new Promise(function(r){setTimeout(function(){r(null)},4000)})]);
+if(db)await db.collection('signups').add(rec);
+else{var a=JSON.parse(localStorage.getItem('sm-signups')||'[]');a.push(rec);localStorage.setItem('sm-signups',JSON.stringify(a))}}catch(x){}
+document.getElementById('fields').hidden=true;document.getElementById('ok').hidden=false;ic();
+};
+})();
+</script>
+</body>
+</html>
